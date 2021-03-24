@@ -1,0 +1,141 @@
+/* конченный файл с классами для обводки круга */
+
+.stroke1 {
+    background-image: linear-gradient(-79.7deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke2 {
+    background-image: linear-gradient(-69.4deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke3 {
+    background-image: linear-gradient(-59.1deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke4 {
+    background-image: linear-gradient(-48.8deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke5 {
+    background-image: linear-gradient(-38.5deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke6 {
+    background-image: linear-gradient(-28.2eg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke7 {
+    background-image: linear-gradient(-17.9deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke8 {
+    background-image: linear-gradient(-7.6deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke9 {
+    background-image: linear-gradient(2.7deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke10 {
+    background-image: linear-gradient(13deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke11 {
+    background-image: linear-gradient(23.3deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke12 {
+    background-image: linear-gradient(33.6deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke13 {
+    background-image: linear-gradient(43.9deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke14 {
+    background-image: linear-gradient(54.2deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke15 {
+    background-image: linear-gradient(64.5deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke16 {
+    background-image: linear-gradient(74.8deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke17 {
+    background-image: linear-gradient(85.1deg, #086A87 50%, transparent 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%);
+}
+
+.stroke18 {
+    background-image: linear-gradient(95.4deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke19 {
+    background-image: linear-gradient(105.7deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke20 {
+    background-image: linear-gradient(116deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke21 {
+    background-image: linear-gradient(126.3deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke22 {
+    background-image: linear-gradient(136.6deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke23 {
+    background-image: linear-gradient(146.9deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke24 {
+    background-image: linear-gradient(157.2deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke25 {
+    background-image: linear-gradient(167.5deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke26 {
+    background-image: linear-gradient(177.8deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke27 {
+    background-image: linear-gradient(188.1deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke28 {
+    background-image: linear-gradient(198.4deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke29 {
+    background-image: linear-gradient(208.7deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke30 {
+    background-image: linear-gradient(219deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke31 {
+    background-image: linear-gradient(229.3deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke32 {
+    background-image: linear-gradient(239.6deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke33 {
+    background-image: linear-gradient(249.9deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke34 {
+    background-image: linear-gradient(260deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}
+
+.stroke35 {
+    background-image: linear-gradient(270deg, transparent 50%, #FFA500 50%), linear-gradient(90deg, #086A87 50%, #FFA500 50%)
+}

@@ -1,0 +1,129 @@
+/* файл для начальной страницы */
+
+
+/* делаем лого больше для главной страницы */
+
+.logo > img{
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* делаем задний фон для формы */
+
+.form_get_url{
+    padding: 60px 50px;
+    border-radius: 40px;
+    background-color: #CCE4F7;
+    width: 70%;
+    margin: 50px auto;
+}
+
+/* гриды для инпутов */
+
+form{
+    display: grid;
+    grid-gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* общие свойства инпутов */
+
+input{
+    width: 100%;
+    padding: 15px;
+    min-width: 245px;
+}
+
+/* свойство для инпута получающий доменное имя */
+
+.url input{
+    border: 2px solid #1E3C58;
+    border-radius: 10px;
+}
+
+/* свойство для инпута отправки формы */
+
+.button input{
+    border: 0;
+    border-radius: 10px;
+    background-color: #086A87;
+    color: white;
+    cursor: pointer;
+}
+
+/* эффект при наведении на кнопку */
+
+.button input:hover{
+    transition: all 1s ease;
+    border: 0;
+    background-color: #0EBBF0;
+}
+
+/* футер абсолютовский, ибо через контейнер гридовй страница уходила вниз и появлялась прокрутка, для этого стоит контейнер флексовый */
+
+footer{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* медиа запросы для легкого адаптива */
+
+@media (min-width: 481px) and (max-width: 767px){
+    .form_get_url{
+        padding: 40px 30px;
+        width: 85%;
+        margin: 100px auto 0;
+    }
+    *{
+        font-size: 18px;
+    }
+    input{
+        min-width: 150px;
+        padding: 10px;
+    }
+    form{
+        grid-gap: 10px;
+    }
+}
+  
+
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .form_get_url{
+        padding: 34px 20px;
+        width: 90%;
+        margin: 150px auto 0;
+    }
+    *{
+        font-size: 18px;
+    }
+    input{
+        min-width: 120px;
+        padding: 10px;
+    }
+    form{
+        grid-gap: 10px;
+    }
+}
+
+@media (max-width: 319px) {
+    .form_get_url{
+        padding: 40px 20px;
+        width: 90%;
+        margin: 150px 0 auto;
+    }
+    *{
+        font-size: 18px;
+    }
+    input{
+        min-width: 120px;
+        padding: 10px;
+    }
+    form{
+        grid-gap: 10px;
+    }
+}

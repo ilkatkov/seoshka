@@ -1,0 +1,72 @@
+/* общий файл для лого, дива контейнера и футера */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.logo {
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 400px;
+    width: 100%;
+}
+
+
+/* контейнер флексовый для начальной страницы */
+
+.container_flex {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* контейнер гридовый для всех остальных страниц */
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.logo_tyz {
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
+}

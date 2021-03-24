@@ -1,0 +1,254 @@
+/* файл для свойств остальных страниц */
+
+
+/* красивый задний фон для контента и разбиение контента и кнопок навигации через гриды*/
+
+.content {
+    border-radius: 40px;
+    background-color: #E0FFFF;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* разбиение основного контента на два столбца: в левом кружок, в правом свойства по сео, их можно влепить любое количество */
+
+.main_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+
+/* задняя часть для ободка круга */
+
+.circle {
+    position: relative;
+    background-color: #086A87;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* основная часть круга с подписью */
+
+.circle:before {
+    content: 'Общая статистика';
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* флексовый контейнер для свойсвт сео */
+
+.properties_seo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* та самая строка для свойства */
+
+.row {
+    margin: 10px 0;
+    display: flex;
+}
+
+
+/* звездочки рейтинга */
+
+.rating {
+    margin: 0 10px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+/* красивая кнопка в свойстве */
+
+.row input {
+    background-color: #086A87;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* нижнии кнопки навигации */
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+
+/* красивые кнопки навигации */
+
+.navigation input {
+    display: grid;
+    border: 0;
+    padding: 8px 5px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #086A87;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+/* анимашка для кнопок */
+
+input:hover {
+    transition: all 1s ease;
+    border: 0;
+    background-color: #0EBBF0;
+}
+
+
+/* свойство грида для левой кнопки навигации чтобы выровнить ее по правому краю */
+
+.nav_end {
+    justify-self: end;
+}
+
+
+/* МЕДИАЗАПРОСЫ */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    * {
+        font-size: 18px;
+    }
+    .main_content {
+        grid-gap: 10px;
+    }
+    /* auto-fit и minmax для того чтобы кнопки встали в два ряда при достижении минимальной ширины */
+    .navigation {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        justify-items: center;
+        grid-gap: 10px;
+    }
+    /* выравнивание несчатной левой кнопки навигации по центру */
+    .nav_end {
+        justify-self: center;
+    }
+    /* круг меньше */
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+    .circle:before {
+        width: 180px;
+        height: 180px;
+    }
+    .content {
+        grid-gap: 20px;
+    }
+    .rating span {
+        margin-left: -1px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    * {
+        font-size: 17px;
+    }
+    .main_content {
+        grid-gap: 10px;
+    }
+    /* auto-fit и minmax для того чтобы кнопки встали в два ряда при достижении минимальной ширины */
+    .navigation {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-items: center;
+        grid-gap: 10px;
+    }
+    /* выравнивание несчатной левой кнопки навигации по центру */
+    .nav_end {
+        justify-self: center;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+    .circle:before {
+        width: 180px;
+        height: 180px;
+    }
+    /* кнопки свойств уменьшаем в ширину */
+    .row input {
+        width: 175px;
+    }
+    .content {
+        grid-gap: 0;
+    }
+    .row input {
+        width: 150px;
+    }
+    .logo_tyz {
+        font-size: 20px;
+    }
+    .rating span {
+        margin-left: -1px;
+    }
+}
+
+@media (max-width: 320px) {
+    * {
+        font-size: 15px;
+    }
+    .main_content {
+        grid-gap: 10px;
+    }
+    /* auto-fit и minmax для того чтобы кнопки встали в два ряда при достижении минимальной ширины */
+    .navigation {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-items: center;
+        grid-gap: 10px;
+    }
+    /* выравнивание несчатной левой кнопки навигации по центру */
+    .nav_end {
+        justify-self: center;
+    }
+    .circle {
+        width: 175px;
+        height: 175px;
+    }
+    .circle:before {
+        width: 155px;
+        height: 155px;
+    }
+    .content {
+        grid-gap: 0;
+    }
+    /* кнопки свойств уменьшаем в ширину */
+    .row input {
+        width: 125px;
+    }
+    .logo_tyz {
+        font-size: 20px;
+    }
+    .rating span {
+        margin-left: -1px;
+    }
+}

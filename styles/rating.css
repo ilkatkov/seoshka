@@ -1,0 +1,120 @@
+/* файл работы звездного рейтинга и классы */
+
+
+.rating span{
+    color: #FFA500;
+    font-size: 24px;
+}
+
+
+/* если кратко то  сначала идет это свойство которое задает закрашивание звездочек */
+
+.checked_0 > span{
+    color: gray;
+}
+
+/* потом идет это свойсвто которое добавляет подпись  */
+
+.checked_0::after{
+    content: '0/5';
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* и так для всех 6 случаев */
+
+.checked_1 > .not1 ~ span{
+    color: gray;
+}
+
+.checked_1::after{
+    content: '1/5';
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked_2 > .not2 ~ span{
+    color: gray;
+}
+
+.checked_2::after{
+    content: '2/5';
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked_3 > .not3 ~ span{
+    color: gray;
+}
+
+.checked_3::after{
+    content: '3/5';
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked_4 > .not4 ~ span{
+    color: gray;
+
+}
+
+.checked_4::after{
+    content: '4/5';
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked_5::after{
+    content: '5/5';
+    margin-left: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #086A87;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
